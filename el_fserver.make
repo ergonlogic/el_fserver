@@ -7,10 +7,11 @@ includes[pressflow] = "http://github.com/ergonlogic/Makefiles/raw/master/el_pres
 ; include basic stuff
 includes[el_base] = "http://github.com/ergonlogic/Makefiles/raw/master/el_base.make"
 
-; Mig5's profile (includes it's own .make)
-projects[feature_server][type] = "profile"
-projects[feature_server][download][type] = "git"
-projects[feature_server][download][url] = "git://git.mig5.net/drupal/profiles/feature_server"
+projects[cck] = 2.8
+projects[filefield] = 3.7
+projects[install_profile_api] = 2.1
 
-; Missing dependency
-projects[] = strongarm
+projects[fserver][location] = "http://code.developmentseed.org/fserver"
+projects[singular][location] = "http://code.developmentseed.org/fserver"
+projects[tao][location] = "http://code.developmentseed.org/fserver"
+
