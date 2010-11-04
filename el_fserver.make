@@ -9,8 +9,8 @@ includes[el_base] = "http://github.com/ergonlogic/Makefiles/raw/master/el_base.m
 
 ; get profile from github
 projects[feature_server][type] = "profile"
-projects[feature_server][download][type] = "file"
-projects[feature_server][download][url] = "https://github.com/ergonlogic/el_fserver/raw/master/feature_server.profile"
+projects[feature_server][download][type] = "git"
+projects[feature_server][download][url] = "http://github.com/ergonlogic/el_fserver.git"
 
 ; dependencies
 projects[cck] = 2.8
