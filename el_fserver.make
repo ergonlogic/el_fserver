@@ -8,9 +8,8 @@ includes[pressflow] = "http://github.com/ergonlogic/Makefiles/raw/master/el_pres
 includes[el_base] = "http://github.com/ergonlogic/Makefiles/raw/master/el_base.make"
 
 ; get profile from github
-projects[feature-server][type] = "profile"
-projects[feature-server][download][type] = "git"
-projects[feature-server][download][url] = "git://github.com/ergonlogic/el_fserver.git"
+projects[feature-server][type] = "file"
+projects[feature-server][download][url] = "https://github.com/ergonlogic/el_fserver/raw/master/feature_server.profile"
 
 ; dependencies
 projects[cck] = 2.8
